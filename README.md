@@ -156,17 +156,17 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 | ----------------------- | ---------- | ---------- | -------------------------------- |
 | Level / Map             |            |            | [Should be in a folder called Map](#2.3) |
 | Level (Persistent)      |            | _P         |                                  |
-| Level (Audio)           |            | _Audio     |                                  |
-| Level (Lighting)        |            | _Lighting  |                                  |
-| Level (Geometry)        |            | _Geo       |                                  |
-| Level (Gameplay)        |            | _Gameplay  |                                  |
+|  Level (Audio)          |            | _Audio     |                                  |
+|  Level (Lighting)       |            | _Lighting  |                                  |
+|  Level (Geometry)       |            | _Geo       |                                  |
+|  Level (Gameplay)       |            | _Gameplay  |                                  |
 | Blueprint               | BP_        |            |                                  |
 | Material                | M_         |            |                                  |
-| Static Mesh             | S_ or SM_  |            | Pick only one. Prefer S_.        |
+| Static Mesh             |       SM_  |            |                                  |
 | Skeletal Mesh           | SK_        |            |                                  |
 | Texture                 | T_         | _?         | See [Textures](#anc-textures)    |
 | Particle System         | PS_        |            |                                  |
-| Widget Blueprint        | WB_ or WBP_|            | Pick only one. Prefer WB_.       |
+| Widget Blueprint        | WB_        |            |                                  |
 
 <a name="anc-animations"></a>
 <a name="1.2.2"></a>
@@ -179,7 +179,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 | Animation Blueprint     | ABP_       |            |                                  |
 | Animation Composite     | AC_        |            |                                  |
 | Animation Montage       | AM_        |            |                                  |
-| Animation Sequence      | A_ or AS_  |            | Pick only one. Prefer A_.        |
+| Animation Sequence      | A_         |            |                                  |
 | Blend Space             | BS_        |            |                                  |
 | Blend Space 1D          | BS_        |            |                                  |
 | Level Sequence          | LS_        |            |                                  |
@@ -877,6 +877,7 @@ Do not use the `Config Variable` flag. This makes it harder for designers to con
 ## License
 
 Copyright (c) 2016 Gamemakin LLC
+Modified by Andrey Tsurkan
 
 See [LICENSE](/LICENSE)
 
